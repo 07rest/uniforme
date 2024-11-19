@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(7, 16, 58);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define a altura mínima da tela inteira */
+    margin: 0;
+}
+
+header {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 114, 218);
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 100px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Faz com que a seção ocupe o espaço restante */
+}
+
+.bert {
+    color: rgb(243, 241, 240);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #da22ac; /* Cor de fundo rosa */
+    border: none;
+    color: rgb(225, 219, 238);
+    padding: 20px 30px; /* Espaçamento interno */
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Alterado para 'block' para ocupar toda a largura disponível */
+    font-size: 30px;
+    margin: 20px auto 0; /* Margem superior para afastar do conteúdo anterior, margem inferior auto para centralizar horizontalmente */
+    cursor: pointer;
+    border-radius: 20px; /* Borda arredondada */
+    transition-duration: 0.4s; /* Suaviza a transição */
+}
+
+.btn:hover {
+    background-color: #ec60ab; /* Cor de fundo rosa mais escura quando hover */
+}
+
+footer {
+    background-color: rgb(125, 114, 218);
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Coloca o rodapé no final da página */
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra na parte superior do rodapé */
+}

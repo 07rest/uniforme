@@ -1,0 +1,99 @@
+/* Reset básico e estilos globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(7, 16, 58);
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(125, 114, 218);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Ajusta a altura para preencher a tela, subtraindo a altura do cabeçalho */
+}
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box {
+    text-align: center;
+}
+
+.auth-box h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.auth-box p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 15px;
+}
+
+.auth-box p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-box p a:hover {
+    text-decoration: underline;
+}

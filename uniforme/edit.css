@@ -1,0 +1,82 @@
+/* Estilos básicos da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #0277bd;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    color: #01579b;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #90caf9;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+    background-color: #e3f2fd;
+}
+
+/* Efeito de foco nos campos */
+input[type="text"]:focus {
+    outline: none;
+    border-color: #0288d1;
+    box-shadow: 0 0 6px rgba(2, 136, 209, 0.4);
+}
+
+/* Estilo do botão */
+input[type="submit"] {
+    background-color: #0288d1;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #01579b;
+}
+
+/* Link de navegação */
+a {
+    display: block;
+    text-align: center;
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

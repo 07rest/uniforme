@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.professor {
+    background: #007BFF;
+}
+
+.professor:hover {
+    background: #0056b3;
+}
+
+.aluno {
+    background: #28a745;
+}
+
+.aluno:hover {
+    background: #1c7c31;
+}

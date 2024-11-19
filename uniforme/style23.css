@@ -1,0 +1,72 @@
+/* Reset básico para evitar inconsistências entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner principal */
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Estilo do título */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo do parágrafo */
+p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Estilo dos botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.professor {
+    background-color: #007bff;
+}
+
+.professor:hover {
+    background-color: #0056b3;
+}
+
+.aluno {
+    background-color: #28a745;
+}
+
+.aluno:hover {
+    background-color: #218838;
+}
